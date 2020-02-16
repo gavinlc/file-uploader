@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import GlobalStyles from "./styles/GlobalStyles";
+import GlobalStyles from './styles/GlobalStyles';
 import FileUploader from './components/FileUploader';
 
 const StyledApp = styled.div`
@@ -29,7 +29,7 @@ const Container = styled.div`
 function App() {
   return (
     <StyledApp>
-        <GlobalStyles/>
+      <GlobalStyles />
       <Container>
         <FileUploader />
       </Container>
